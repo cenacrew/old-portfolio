@@ -1,0 +1,22 @@
+header{
+    background: white;
+    width: 100%;
+    margin: auto;
+}
+
+.container img{
+    display: inline-block;
+    vertical-align: top;
+    height: 35px;
+}
+
+
+.Me img{
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    height: 35px;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+

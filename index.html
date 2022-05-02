@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="/img/icon me.ico">
+	<link rel="stylesheet" href="css/styles.css">
+	
+
+	<title>Valentin Sourdois Pajot Portfolio</title>
+</head>
+
+<body>
+	<div class="content">
+		<!---Menu-->
+		<div class="navv">
+
+			<input type="button" value="Profil" onClick="document.getElementById('profil').scrollIntoView();" />
+			<input type="button" value="Informations"
+				onClick="document.getElementById('informations').scrollIntoView();" />
+			<input type="button" value="Parcours" onClick="document.getElementById('parcours-competences-dir').scrollIntoView();" />
+			<input type="button" value="Compétences"
+				onClick="document.getElementById('parcours-competences-dir').scrollIntoView();" />
+			<input type="button" value="Projets" onClick="document.getElementById('projects-dir').scrollIntoView();" />
+			<input type="button" value="Contact" onClick="document.getElementById('contact').scrollIntoView();" />
+		</div>
+
+		<!---Profil-->
+		<section id="profil">
+			<img id="image_profil" src="img/icon me.png">
+			<h2>Valentin Sourdois Pajot</h2>
+			<p>Étudiant en Informatique à l'université de Bordeaux.</p>
+		</section>
+		<!---Informations-->
+		<div class="cv-spec">
+			<section id="informations" class="cv-section">
+				<p class="sTitle">Informations</p>
+				<div id="competences-list">
+					<div class="competence">
+						<a href="mailto:valetnina.sp@gmail.com">
+							<img class="competences-img" src="img/icons8-courriel-ouvert-50.png">
+						</a>
+						<h2>valetnina.sp@gmail.com</h2>
+					</div>
+					<div class="competence">
+						<a href="https://www.linkedin.com/in/ourdoisPajot-Valentin">
+							<img class="competences-img" src="img/icons8-linkedin-50.png">
+						</a>
+						<h2><a href="https://github.com/cenacrew">Valentin Sourdois Pajot</a></h2>
+					</div>
+					<div class="competence">
+						<a href="https://github.com/cenacrew">
+							<img class="competences-img" src="img/icons8-github-50.png">
+						</a>
+						<h2><a href="https://github.com/cenacrew">cenacrew</a></h2>
+					</div>
+					<div class="competence">
+						<a href="/files/CVSourdoisPajotValentin.pdf">
+							<img class="competences-img" src="img/icons8-coller-depuis-le-presse-papier-50.png">
+						</a>
+						<h2><a href="/files/CVSourdoisPajotValentin.pdf">CV</a></h2>
+					</div>
+				</div>
+			</section>
+			<!---Parcours-->
+			<div id="parcours-competences-dir"></div>
+			<div class="container-c">
+				<section id="parcours" class="cv-section">
+					<p class="sTitle">Parcours</p>
+					<div id="parcours-list">
+						<div>
+							<img class="parcours-img" src="img/AC.png">
+							<h3>BAC STI2D - Périgueux</h3>
+							<h5>2017-2020</h5>
+						</div>
+						<div>
+							<img class="parcours-img" src="img/ff.png">
+							<h3>IUT Informatique - Bordeaux</h3>
+							<h5>2020-Actuellement</h5>
+						</div>
+					</div>
+				</section>
+				<!---Compétences-->
+				<section id="competences" class="cv-section">
+					<p class="sTitle">Compétences</p>
+					<div id="competences-list">
+						<div class="competence">
+							<img class="competences-img" src="img/java.png">
+							<h3>JAVA</h3>
+						</div>
+						<div class="competence">
+							<img class="competences-img" src="img/js.png">
+							<h3>JS</h3>
+						</div>
+						<div class="competence">
+							<img class="competences-img" src="img/html.png">
+							<h3>HTML</h3>
+						</div>
+						<div class="competence">
+							<img class="competences-img" src="img/css.png">
+							<h3>CSS</h3>
+						</div>
+						<div class="competence">
+							<img class="competences-img" src="img/photoshop.png">
+							<h3>Photoshop</h3>
+						</div>
+						<div class="competence">
+							<img class="competences-img" src="img/bash.png">
+							<h3>Bash</h3>
+						</div>
+						<div class="competence">
+							<img class="competences-img" src="img/CSHARP.png">
+							<h3>C#</h3>
+						</div>
+						<div class="competence">
+							<img class="competences-img" src="img/git.png">
+							<h3>Git</h3>
+						</div>
+					</div>
+				</section>
+			</div>
+			<!---Retex-->
+		</div>
+		<div id="projects-dir"></div>
+		<div class="slider-container" id="projets">
+
+						<section class="cv-section" id="projets-t">
+							<img src="img/pong.png" class="projet-logo">
+							<h1>Pong - Jeu avec 2 raquettes et une balle</h1>
+							<ul class="apps">
+								<li>
+									<p>Interface jouable du jeu Pong, ou 2 joueurs peuvent contrôler leur raquette, et avec la présence d'obstacles aléatoires,
+									en y intégrant une DA cohérente avec l'ensemble du jeu et un mode avec 4 balles.
+									</p>
+									<div class="app-spec">
+										<div class="app-language">
+											<div class="title">
+												<p>Langages:</p>
+											</div>
+											<div class="content">
+												<div class="competences-img">
+													<img class="competences-img" src="img/java.png">
+													<span class="tooltiptext">Java</span>
+												</div>
+											</div>
+											
+										</div>										
+										<div class="app-utils">
+											<div class="title">
+												<p>Outils:</p>
+											</div>
+											<div class="content">
+												<div class="competences-img">
+													<img class="competences-img" src="img/Processing.png">
+													<span class="tooltiptext">Processing</span>
+												</div>
+											</div>											
+										</div>
+									</div>
+								</li>
+								<p class="app-text">Images:</p>
+								<img class="screenshot" src="img/pong1.png">
+								<img class="screenshot" src="img/pong2.png">
+								<p>Ce premier projet a permis de se familiariser avec la programmation et l'implémentation d'éléments graphiques</p>
+
+							</ul>
+						</section>
+	
+						<section class="cv-section" id="projets-t">
+							<img src="img/lowatem.png" class="projet-logo">
+							<h1>Lowatem - Jeu de stratégie via le déplacement de soldats</h1>
+							<ul class="apps">
+								<li>
+									<p>Mise en place des différentes règles d'un jeu déja existant, augmentant la compléxité et la difficulté, puis mise en place d'une IA de ce jeu dans le but de lui faire affronter celles des autres élèves. </p>
+									<div class="app-spec">
+										<div class="app-language">
+											<p>Langages:</p>
+											<div class="competences-img">
+												<img class="competences-img" src="img/java.png">
+												<span class="tooltiptext">Java</span>
+											</div>
+										</div>
+										<div class="app-utils">
+											<div class="title">
+												<p>Outils:</p>
+											</div>
+											<div class="content">
+												<div class="competences-img">
+													<img class="competences-img" src="img/netbeans.png">
+													<span class="tooltiptext">Netbeans</span>
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								</li>
+								<p class="app-text">Images:</p>
+								<img class="screenshot" src="img/lowatem1.png">
+								<p>Ce projet a servi à comprendre comment marche java et m'a aussi permis d'avoir une approche plus algorithmique d'un objectif voulu.</p>
+							</ul>
+						</section>
+						<section class="cv-section" id="projets-t">
+							<img src="img/LogoFotool.png" class="projet-logo">
+							<h1>Fotool - Création d'une entreprise.</h1>
+							<ul class="apps">
+								<li>
+									<p>Imaginer une entreprise, son modèle économique, le secteur dans lequel elle s'implante, comment gérer son marketing et le rôle des différents membres de cette même entreprise.</p>
+									<div class="app-spec">
+										<div class="app-language">
+											<p>Langages:</p>
+											<div class="competences-img">
+												<img class="competences-img" src="img/fr.png">
+												<span class="tooltiptext">Francais</span>
+											</div>
+										</div>
+										<div class="app-utils">
+											<div class="title">
+												<p>Outils:</p>
+											</div>
+											<div class="content">
+												<div class="competences-img">
+													<img class="competences-img" src="img/word.png">
+													<span class="tooltiptext">Word</span>
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								</li>
+								<p class="app-text">Images:</p>
+								<img class="screenshot" src="img/fotool2.png">
+								<img class="screenshot" src="img/fotool3.png"> 
+								<p>Ce projet a permis de laisser libre place à son imagination tout en restant cohérent, et m'a apporté des notions de gestion et d'économie telle que le PESTEL.</p>
+							</ul>
+						</section>
+
+
+						<section class="cv-section" id="projets-t">
+							<img src="img/LogoFotool.png" class="projet-logo">
+							<h1> Fotool - Site web d'une entreprise.</h1>
+							<ul class="apps">
+								<li>
+									<p>Réalisation d'un site web répondant au besoin de l'entreprise crée via la création préalable de maquette et d'un Persona</p>
+									<div class="app-spec">
+										<div class="app-language">
+											<p>Langages:</p>
+											<div class="competences-img">
+												<img class="competences-img" src="img/html.png">
+												<span class="tooltiptext">HTML</span>
+											</div>
+											<div class="competences-img">
+												<img class="competences-img" src="img/css.png">
+												<span class="tooltiptext">CSS</span>
+											</div>
+										</div>
+										<div class="app-utils">
+											<div class="title">
+												<p>Outils:</p>
+											</div>
+											<div class="content">
+												<div class="competences-img">
+													<img class="competences-img" src="img/vsc.png">
+													<span class="tooltiptext">Visual Studio Code</span>
+												</div>
+												<div class="competences-img">
+													<img class="competences-img" src="img/photoshop.png">
+													<span class="tooltiptext">Photoshop</span>
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								</li>
+								<p class="app-text">Images:</p>
+								<img class="screenshot" src="img/fotool1.png">
+								<img class="screenshot" src="img/persona1.png">
+								<p>Ce projet m'a amélioré en web et surtout sur la phase de conception d'un site web qui répond à un besoin, cela m'a permis de découvrir le principe de persona et m'a appris comment réaliser une maquette pour un site web.</p>
+							</ul>
+						</section>
+						<section class="cv-section" id="projets-t">
+							<img src="img/linux.png" class="projet-logo">
+							<h1>Installation poste - Préparer un poste à une utilisation profesionelle</h1>
+							<ul class="apps">
+								<li>
+									<p>Créer une machine virtuelle sous un Linux choisis méticuleusement et la préparer pour qu'elle soit utilisable de façon optimisée par l'entreprise selon le cahier des charges fourni.</p>
+									<div class="app-spec">
+										<div class="app-language">
+											<p>Langages:</p>
+											<div class="competences-img">
+												<img class="competences-img" src="img/rust.png">
+												<span class="tooltiptext">Rust</span>
+											</div>
+											<div class="competences-img">
+												<img class="competences-img" src="img/bash.png">
+												<span class="tooltiptext">Bash</span>
+											</div>
+										</div>
+										<div class="app-utils">
+											<div class="title">
+												<p>Outils:</p>
+											</div>
+											<div class="content">
+												<div class="competences-img">
+													<img class="competences-img" src="img/vmware.jpg">
+													<span class="tooltiptext">Vmware</span>
+												</div>
+												<div class="competences-img">
+													<img class="competences-img" src="img/xubuntu.png">
+													<span class="tooltiptext">Xubuntu</span>
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								</li>
+								<p class="app-text">Images:</p>
+								<img class="screenshot" src="img/vmware1.jpg">
+								<p>Ce projet m'a appris l'utilisation concrète d'une machine virtuelle et m’a permis de découvrir l'abondance de Linux différents existants.</p>
+							</ul>
+						</section>
+
+						<section class="cv-section" id="projets-t">
+							<img src="img/JPO.jpg" class="projet-logo">
+							<h1>JPO - Réalisation de visuelle.</h1>
+							<ul class="apps">
+								<li>
+									<p>Réaliser les différents visuels pour la JPO : concevoir une affiche principale, le plan et les badges avec une DA commune.</p>
+									<div class="app-spec">
+										<div class="app-language">
+											<p>Langages:</p>
+											<div class="competences-img">
+												<img class="competences-img" src="img/fr.png">
+												<span class="tooltiptext">Francais</span>
+											</div>
+										</div>
+										<div class="app-utils">
+											<div class="title">
+												<p>Outils:</p>
+											</div>
+											<div class="content">
+												<div class="competences-img">
+													<img class="competences-img" src="img/pixlr.svg">
+													<span class="tooltiptext">Pixlr</span>
+												</div>
+												<div class="competences-img">
+													<img class="competences-img" src="img/photoshop.png">
+													<span class="tooltiptext">Photoshop</span>
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								</li>
+								<p class="app-text">Images:</p>
+								<img class="screenshot" src="img/JPO1.png">
+								<img class="screenshot" src="img/JPO2.png">
+								<p>Ce projet m'a permis de m'épanouir dans ma passion pour le graphisme globalement, cela m'a permis de développer mes compétences en Photoshop et apprendre les règles dans la réalisation d'une affiche.</p>
+							</ul>
+						</section>
+
+
+
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!---Contact-->
+		<section class="cv-section" id="contact">
+			<h3>Formulaire de contact</h3>
+			<div class="container">
+				<form action="/action_page.php">
+					<label for="fname">Votre nom</label>
+					<input type="text" id="fname" name="firstname" placeholder="...">
+					<label for="lname">Votre prénom</label>
+					<input type="text" id="lname" name="lastname" placeholder="...">
+					<label for="subject">Sujet</label>
+					<textarea id="subject" name="subject" placeholder="Votre message.." style="height:200px"></textarea>
+					<input type="submit" value="Soumettre">
+				</form>
+			</div>
+		</section>
+	</div>
+	<!---Footer-->
+	<footer class="main-footer">
+		<div class="footer-wrapper">
+			<p>Sourdois Pajot Valentin - valetnina.sp@gmail.com</p>
+		</div>
+	</footer>
+</body>
+
+</html>
